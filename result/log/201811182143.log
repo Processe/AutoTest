@@ -1,0 +1,10 @@
+2018-11-18 21:43:31,789 - BrowserEngine - INFO - Starting Chrome browser.
+2018-11-18 21:43:58,998 - BrowserEngine - INFO - Open url: http://asset-daily.ycd360.cn
+2018-11-18 21:44:00,238 - BrowserEngine - INFO - Maximize the current window.
+2018-11-18 21:44:00,516 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-11-18 21:44:03,402 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[1]/div/div/input 
+2018-11-18 21:44:04,928 - FunctionLibrary - INFO - Had type ' 18519030808 ' in inputBox
+2018-11-18 21:44:04,948 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[2]/div/div/input 
+2018-11-18 21:44:05,126 - FunctionLibrary - INFO - Had type ' asdf1234 ' in inputBox
+2018-11-18 21:44:05,156 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[3]/button 
+2018-11-18 21:44:12,121 - FunctionLibrary - INFO - [Error]:click--//*[@id='app']/div/div/form/div[3]/button

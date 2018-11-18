@@ -1,0 +1,58 @@
+# coding=utf-8
+# --author='fangfang'
+
+from models.unittest_setup import Setup
+import unittest
+from models.logger import Logger
+
+logger = Logger(logger="test_case").getlog()
+
+
+class TestCJJL(unittest.TestCase):
+    def setUp(self):
+        """
+        实例化基础类
+        :return:
+        """
+        self.caseid = "出借记录_001"
+        self.trade = "出借记录"
+        case = Setup()
+        case.asset_web_setup(self.trade, self.caseid)
+        self.datatools = case.datatools
+        self.case_module = case.module
+        self.driver = case.driver
+        self.functionlibrary = case.functionlibrary
+        self.process = case.process
+        self.screenshot = case.screenshot
+        logger.info('------' + self.caseid + '开始执行------')
+
+    def test_procedure(self):
+        # -----获取测试数据------
+        username = self.datatools.getExcelDateRowValue('出借记录', '用户名', self.caseid)
+        password = self.datatools.getExcelDateRowValue('出借记录', '密码', self.caseid)
+        bdmc = self.datatools.getExcelDateRowValue('出借记录', '标的名称', self.caseid)
+        bdzt = self.datatools.getExcelDateRowValue('出借记录', '标的状态', self.caseid)
+
+        # -----业务逻辑代码------
+        self.functionlibrary.ClickByName("我的")
+        self.functionlibrary.IsExistByIdClick("com.ygjr.ycd.debug:id/dialog_iv_close")
+        is_login = self.functionlibrary.elementIsExist("提现")
+        if is_login:
+            pass
+        else:
+            self.process.login(username, password)
+            self.functionlibrary.ClickByName("我的")
+        self.functionlibrary.ClickByName("我的出借")
+        self.functionlibrary.ClickByName("出借记录")
+        self.functionlibrary.ClickByName(bdmc)
+        self.functionlibrary.CheckContentText("com.ygjr.ycd.debug:id/tender_detail_tv_status", bdzt)
+        self.screenshot.takeTakesScreenshot("出借记录详情页面")
+
+    def tearDown(self):
+        """
+        测试结束后的操作，这里基本上都是关闭应用程序
+        :return:
+        """
+        self.driver.quit()
+
+

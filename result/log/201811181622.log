@@ -1,0 +1,68 @@
+2018-11-18 16:23:25,680 - BrowserEngine - INFO - Starting Chrome browser.
+2018-11-18 16:23:48,350 - BrowserEngine - INFO - Open url: http://asset-daily.ycd360.cn
+2018-11-18 16:23:49,471 - BrowserEngine - INFO - Maximize the current window.
+2018-11-18 16:23:49,473 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-11-18 16:23:51,464 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[1]/div/div/input 
+2018-11-18 16:23:54,454 - FunctionLibrary - INFO - Had type ' 18519030808 ' in inputBox
+2018-11-18 16:23:54,480 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[2]/div/div/input 
+2018-11-18 16:23:54,667 - FunctionLibrary - INFO - Had type ' asdf1234 ' in inputBox
+2018-11-18 16:23:54,695 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[3]/button 
+2018-11-18 16:23:55,766 - FunctionLibrary - INFO - The element ' 登 录 ' was clicked.
+2018-11-18 16:24:00,810 - FunctionLibrary - INFO - Sleep for 5 seconds
+2018-11-18 16:24:01,131 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[1]/div[3]/div[3]/div/span 
+2018-11-18 16:24:01,574 - FunctionLibrary - INFO - The element ' 管理员 ' was clicked.
+2018-11-18 16:24:01,864 - FunctionLibrary - INFO - The element ' 营业部 ' was clicked.
+2018-11-18 16:24:04,877 - FunctionLibrary - INFO - Sleep for 3 seconds
+2018-11-18 16:24:04,898 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[2]/ul/li[5] 
+2018-11-18 16:24:04,990 - FunctionLibrary - INFO - The element ' 新增进件 ' was clicked.
+2018-11-18 16:24:05,132 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[1]/div/div/div/div/div[1]/input 
+2018-11-18 16:24:05,348 - FunctionLibrary - INFO - The element '  ' was clicked.
+2018-11-18 16:24:05,498 - FunctionLibrary - INFO - The element ' 联合信用贷 ' was clicked.
+2018-11-18 16:24:07,499 - FunctionLibrary - INFO - Sleep for 2 seconds
+2018-11-18 16:24:07,516 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[2]/div/div[1]/input 
+2018-11-18 16:24:07,948 - FunctionLibrary - INFO - Had type ' 19906618517 ' in inputBox
+2018-11-18 16:24:07,984 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[3]/div/div/input 
+2018-11-18 16:24:08,233 - FunctionLibrary - INFO - Had type ' 10008 ' in inputBox
+2018-11-18 16:24:08,265 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[4]/div/div/div[1]/input 
+2018-11-18 16:24:08,409 - FunctionLibrary - INFO - The element '  ' was clicked.
+2018-11-18 16:24:08,881 - FunctionLibrary - INFO - The element ' 月 ' was clicked.
+2018-11-18 16:24:08,946 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[5]/div/div/div[1]/input 
+2018-11-18 16:24:09,094 - FunctionLibrary - INFO - The element '  ' was clicked.
+2018-11-18 16:24:09,418 - FunctionLibrary - INFO - The element ' 先息后本 ' was clicked.
+2018-11-18 16:24:11,419 - FunctionLibrary - INFO - Sleep for 2 seconds
+2018-11-18 16:24:11,447 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[6]/div/div/div[1]/input 
+2018-11-18 16:24:11,570 - FunctionLibrary - INFO - The element '  ' was clicked.
+2018-11-18 16:24:11,898 - FunctionLibrary - INFO - The element ' 3个月 ' was clicked.
+2018-11-18 16:24:11,982 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[7]/div/div/div[1]/input 
+2018-11-18 16:24:12,116 - FunctionLibrary - INFO - The element '  ' was clicked.
+2018-11-18 16:24:12,339 - FunctionLibrary - INFO - Not found 车抵贷-先息后本-3个月-9% text.
+2018-11-18 16:24:12,359 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[8]/div/div/div[1]/input 
+2018-11-18 16:24:12,514 - FunctionLibrary - INFO - The element '  ' was clicked.
+2018-11-18 16:24:12,822 - FunctionLibrary - INFO - The element ' 业务进件 ' was clicked.
+2018-11-18 16:24:12,850 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[9]/div/div/div[1]/input 
+2018-11-18 16:24:13,019 - FunctionLibrary - INFO - The element '  ' was clicked.
+2018-11-18 16:24:13,368 - FunctionLibrary - INFO - The element ' 短期周转 ' was clicked.
+2018-11-18 16:24:13,404 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[10]/div/div[1]/input 
+2018-11-18 16:24:13,626 - FunctionLibrary - INFO - Had type ' 客户08 ' in inputBox
+2018-11-18 16:24:13,717 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[11]/div/div[1]/input 
+2018-11-18 16:24:14,272 - FunctionLibrary - INFO - Had type ' 330154196302024007 ' in inputBox
+2018-11-18 16:24:14,298 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[12]/div/div[1]/input 
+2018-11-18 16:24:14,523 - FunctionLibrary - INFO - Had type ' 杭州市拱墅区 ' in inputBox
+2018-11-18 16:24:14,847 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[13]/div/div[1]/input 
+2018-11-18 16:24:14,925 - FunctionLibrary - INFO - Had type ' 汉 ' in inputBox
+2018-11-18 16:24:14,951 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[14]/div/div/div[1]/input 
+2018-11-18 16:24:15,103 - FunctionLibrary - INFO - The element '  ' was clicked.
+2018-11-18 16:24:15,428 - FunctionLibrary - INFO - The element ' 男 ' was clicked.
+2018-11-18 16:24:15,460 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[15]/div/div[1]/input 
+2018-11-18 16:24:15,691 - FunctionLibrary - INFO - Had type ' 1945-02-02 ' in inputBox
+2018-11-18 16:24:15,730 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[17]/div/div/div/button 
+2018-11-18 16:24:16,013 - FunctionLibrary - INFO - The element ' 点击上传 ' was clicked.
+2018-11-18 16:24:24,227 - FunctionLibrary - INFO - Sleep for 1 seconds
+2018-11-18 16:24:24,249 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[3]/div[1]/form/div[18]/div/div/div/button 
+2018-11-18 16:24:24,366 - FunctionLibrary - INFO - The element ' 点击上传 ' was clicked.
+2018-11-18 16:24:28,479 - FunctionLibrary - INFO - Sleep for 1 seconds
+2018-11-18 16:24:28,511 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[1]/div[1]/span 
+2018-11-18 16:24:28,619 - FunctionLibrary - INFO - The element ' 新增进件 ' was clicked.
+2018-11-18 16:24:30,619 - FunctionLibrary - INFO - Sleep for 2 seconds
+2018-11-18 16:24:30,638 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[3]/div/div/div[2]/div[2]/button[2] 
+2018-11-18 16:24:31,030 - FunctionLibrary - INFO - [Error]:click--//*[@id='app']/div/div[3]/div/div/div[2]/div[2]/button[2]
