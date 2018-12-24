@@ -1,0 +1,5 @@
+2018-12-21 10:02:31,556 - BrowserEngine - INFO - Starting Chrome browser.
+2018-12-21 10:02:32,965 - BrowserEngine - INFO - Open url: http://asset-daily.ycd360.cn
+2018-12-21 10:02:34,095 - BrowserEngine - INFO - Maximize the current window.
+2018-12-21 10:02:34,098 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-12-21 10:02:45,604 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[1]/div/div/input 

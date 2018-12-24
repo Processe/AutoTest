@@ -1,0 +1,4 @@
+2018-12-21 09:58:35,152 - BrowserEngine - INFO - Starting Chrome browser.
+2018-12-21 09:58:38,808 - BrowserEngine - INFO - Open url: http://asset-daily.ycd360.cn
+2018-12-21 09:58:39,945 - BrowserEngine - INFO - Maximize the current window.
+2018-12-21 09:58:39,947 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
