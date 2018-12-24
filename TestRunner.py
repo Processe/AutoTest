@@ -4,7 +4,7 @@
 import os
 import time
 import unittest
-import HTMLTestRunner
+import package.models.HTMLTestRunner
 
 test_dir = './test_case/execute_case/'
 report_dir = './report/'
@@ -20,3 +20,5 @@ if __name__ == "__main__":
     # 如果不用生成HTML文件
     runner = unittest.TextTestRunner()
     runner.run(discover)
+
+

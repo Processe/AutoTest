@@ -43,15 +43,15 @@ class FunctionLibrary(object):
         self.driver = driver
         # quit browser and end testing
 
-    def exception(function):
+    def exception(func):
         """
         异常装饰器，用来替代try except
         """
-        def wrapper(self, *args, **kwargs):
+        def wrapper(*args, **kwargs):
             try:
-                return function(self, *args, **kwargs)
+                return func(*args, **kwargs)
             except Exception as e:
-                screenshot = Screenshot(self.driver, "", "异常截图")
+                screenshot = Screenshot(func.driver, "", "异常截图")
                 funcName = function.__name__
                 # self = args[0]
                 # 组装异常信息
@@ -63,10 +63,9 @@ class FunctionLibrary(object):
                 # self.quitDriver("1")
                 # 删除driver.ini文件
                 # 关闭webdriver
-                self.driver.quit()
+                func.driver.quit()
                 logger.info(x)
                 raise e
-
         return wrapper
 
     def quit_browser(self):

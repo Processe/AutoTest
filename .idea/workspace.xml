@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84b91366-c773-4626-887d-2020f944ed96" name="Default Changelist" comment="" />
+    <list default="true" id="84b91366-c773-4626-887d-2020f944ed96" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package/interface/asset_push.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/TestRunner.py" afterPath="$PROJECT_DIR$/TestRunner.py" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" afterPath="$PROJECT_DIR$/config/config.ini" />
+      <change beforePath="$PROJECT_DIR$/package/models/webFunction.py" afterPath="$PROJECT_DIR$/package/models/webFunction.py" />
+      <change beforePath="$PROJECT_DIR$/result/image/新增进件/联合信用贷业务流/XZJJ-008/001打开登录页面成功.png" afterPath="$PROJECT_DIR$/result/image/新增进件/联合信用贷业务流/XZJJ-008/001打开登录页面成功.png" />
+      <change beforePath="$PROJECT_DIR$/test_case/execute_case/ycd360_mobile/登录/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_case/execute_case/ycd360_mobile/登录/test_登录.py" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,89 +62,84 @@
     <session id="510883209">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
           <entry key="png" value="4" />
-          <entry key="py" value="33" />
+          <entry key="py" value="74" />
           <entry key="pyi" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="4" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="33" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="74" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="14" />
-          <entry key="py" value="1619" />
+          <entry key="dummy" value="18" />
+          <entry key="py" value="7502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="1619" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="7502" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestRunner.py">
+      <file leaf-file-name="启动手机driver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/启动手机driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="153">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#1#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="create_assert_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_assert_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_新增进件001.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_web/新增进件/test_新增进件001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="68">
+              <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/template/asset/web/asset_items.py">
+      <file leaf-file-name="TestRunner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1041">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/Script/456.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding>
-                <element signature="e#25#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/AutoTest1/package/models/mobileDriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#38#47#0" expanded="true" />
               </folding>
@@ -141,40 +147,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/models/getDateTools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-              <folding>
-                <element signature="e#38#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/models/unittest_setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-              <folding>
-                <element signature="e#38#78#0" expanded="true" />
-                <marker date="1542005167658" expanded="true" signature="591:597" ph="..." />
-                <marker date="1542005167658" expanded="true" signature="638:639" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="webFunction.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package/models/webFunction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="301" column="37" lean-forward="true" selection-start-line="301" selection-start-column="37" selection-end-line="301" selection-end-column="37" />
-              <folding>
-                <element signature="e#15#47#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ycd360_put_assert.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package/interface/ycd360_put_assert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messageTool.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/models/messageTool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asset_items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/template/asset/web/asset_items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,31 +198,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>scriptError</find>
-      <find>get</find>
-      <find>IsStrChangeNum</find>
-      <find>IsNumSame</find>
-      <find>IsOneNum</find>
-      <find>cle</find>
-      <find>Clear</find>
-      <find>ex</find>
-      <find>exist</find>
-      <find>excepTion</find>
-      <find>click</find>
-      <find>键盘</find>
-      <find>tap</find>
-      <find>visibility</find>
-      <find>坐标</find>
-      <find>check</find>
-      <find>excel</find>
-      <find>screenshot</find>
-      <find>transName</find>
       <find>elements[0].click()</find>
       <find>ScriptError</find>
       <find>com</find>
       <find>compare</find>
       <find>logger</find>
       <find>module</find>
+      <find>null</find>
+      <find>78217</find>
+      <find>adb</find>
+      <find>60</find>
+      <find>68</find>
+      <find>purpose</find>
+      <find>20268</find>
+      <find>20264</find>
+      <find>bank_card</find>
+      <find>11</find>
+      <find>坐标</find>
+      <find>tap</find>
+      <find>ICcard</find>
+      <find>safekeybord</find>
+      <find>getVid</find>
+      <find>185</find>
+      <find>10012</find>
+      <find>20368</find>
+      <find>TouchAction</find>
+      <find>603</find>
+      <find>clickSafeKeyBoard</find>
+      <find>safe_screenshot_shot</find>
+      <find>forElementByClassnameClcik</find>
+      <find>img_</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -223,31 +236,21 @@
       <dir>D:\MobileTest\config</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_case/case/case_prosess.py" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
-        <option value="$PROJECT_DIR$/test_case/case/test_prosess.py" />
-        <option value="$PROJECT_DIR$/test_case/case/登录/test_正常登录.py" />
-        <option value="$PROJECT_DIR$/test_case/case/登录/test_登录.py" />
-        <option value="$PROJECT_DIR$/test_case/case/出借记录/test_出借记录查询.py" />
-        <option value="$PROJECT_DIR$/package/models/driver.py" />
-        <option value="$PROJECT_DIR$/test_case/execute_case/登录/test_登录.py" />
-        <option value="$PROJECT_DIR$/package/models/path.py" />
-        <option value="$PROJECT_DIR$/test_case/process_obj/processed.py" />
         <option value="$USER_HOME$/Desktop/7789.py" />
         <option value="E:/案例/csv2xml.py" />
         <option value="$USER_HOME$/Desktop/456.py" />
-        <option value="E:/Script/sel.py" />
         <option value="$PROJECT_DIR$/package/models/getDate.py" />
-        <option value="E:/Script/东莞银行.py" />
         <option value="$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录查询.py" />
         <option value="$PROJECT_DIR$/test_case/execute_case/出借记录/test_CJJL-011.py" />
         <option value="$PROJECT_DIR$/test_case/execute_case/出借记录/test_CJJL-001.py" />
         <option value="$PROJECT_DIR$/package/models/screenshot.py" />
         <option value="$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录001.py" />
-        <option value="$PROJECT_DIR$/TestRunner.py" />
         <option value="$PROJECT_DIR$/package/models/function.py" />
         <option value="$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_001.py" />
         <option value="$PROJECT_DIR$/package/models/mobileDriver.py" />
@@ -271,9 +274,25 @@
         <option value="$PROJECT_DIR$/package/template/asset/web/asset-items.py" />
         <option value="$PROJECT_DIR$/package/template/asset/web/assetItems.py" />
         <option value="$PROJECT_DIR$/test_case/execute_case/asset_web/新增进件/test_新增进件001.py" />
-        <option value="$PROJECT_DIR$/package/models/webFunction.py" />
         <option value="$PROJECT_DIR$/package/template/asset/web/asset_items.py" />
+        <option value="E:/Script/sel.py" />
+        <option value="$PROJECT_DIR$/package/interface/switch_position.py" />
+        <option value="$PROJECT_DIR$/package/interface/finance_products.py" />
+        <option value="$PROJECT_DIR$/package/interface/login.py" />
+        <option value="$PROJECT_DIR$/package/interface/asset_push.py" />
+        <option value="$PROJECT_DIR$/package/interface/asset_push1.py" />
         <option value="E:/Script/456.py" />
+        <option value="E:/Script/东莞银行.py" />
+        <option value="$PROJECT_DIR$/123.py" />
+        <option value="$PROJECT_DIR$/package/models/messageTool.py" />
+        <option value="$USER_HOME$/Documents/WeChat Files/FANG-250/Files/Python1.py" />
+        <option value="$PROJECT_DIR$/package/interface/ycd360_put_assert.py" />
+        <option value="$USER_HOME$/Desktop/启动手机driver.py" />
+        <option value="$PROJECT_DIR$/message_test.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/package/interface/put_task_action_submit.py" />
+        <option value="$PROJECT_DIR$/package/models/webFunction.py" />
+        <option value="$PROJECT_DIR$/TestRunner.py" />
       </list>
     </option>
   </component>
@@ -283,11 +302,37 @@
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Python</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,80 +345,23 @@
               <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="package" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="execute_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="execute_case" type="462c0819:PsiDirectoryNode" />
-              <item name="asset_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="execute_case" type="462c0819:PsiDirectoryNode" />
-              <item name="asset_web" type="462c0819:PsiDirectoryNode" />
-              <item name="新增进件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="execute_case" type="462c0819:PsiDirectoryNode" />
-              <item name="ycd360_mobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AutoTest" />
+      <recent name="D:\AutoTest\package\models" />
+      <recent name="D:\AutoTest\package\interface" />
+      <recent name="D:\AutoTest\apps" />
       <recent name="D:\AutoTest\test_case\execute_case\asset_web" />
-      <recent name="D:\AutoTest\test_case\execute_case" />
-      <recent name="D:\AutoTest\config" />
-      <recent name="D:\MobileTest\test_case\execute_case\出借记录" />
-      <recent name="D:\MobileTest\test_case\execute_case" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MobileTest\test_case\case" />
@@ -394,30 +382,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.456 (1)">
-    <configuration name="456 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AutoTest" />
+  <component name="RunManager" selected="Python.TestRunner">
+    <configuration name="Python1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/Script" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/WeChat Files/FANG-250/Files" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:/Script/456.py" />
+      <module name="AutoTest" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/WeChat Files/FANG-250/Files/Python1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="TestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -428,87 +412,86 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutoTest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestRunner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="getDateTools" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AutoTest" />
+    <configuration name="message_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package/models/getDateTools.py" />
+      <module name="AutoTest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/message_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="screenshot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AutoTest" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package/models/screenshot.py" />
+      <module name="AutoTest" />
+      <option name="SCRIPT_NAME" value="D:\AutoTest\create_assert_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_出借记录-011.TestCJJL.test_procedure" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
+    <configuration name="ycd360_put_assert" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/execute_case/出借记录" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package/interface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_出借记录-011.TestCJJL.test_procedure&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
+      <module name="AutoTest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package/interface/ycd360_put_assert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list>
-      <item itemvalue="Python.456 (1)" />
-      <item itemvalue="Python.TestRunner" />
-      <item itemvalue="Python.screenshot" />
-      <item itemvalue="Python.getDateTools" />
-      <item itemvalue="Python tests.Unittests for test_出借记录-011.TestCJJL.test_procedure" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.message_test (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Python1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ycd360_put_assert" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TestRunner" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.456 (1)" />
-        <item itemvalue="Python.TestRunner" />
-        <item itemvalue="Python tests.Unittests for test_出借记录-011.TestCJJL.test_procedure" />
-        <item itemvalue="Python.getDateTools" />
-        <item itemvalue="Python.screenshot" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.TestRunner" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ycd360_put_assert" />
+        <item index="3" class="java.lang.String" itemvalue="Python.message_test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Python1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -521,158 +504,132 @@
       <option name="presentableId" value="Default" />
       <updated>1538999610476</updated>
     </task>
+    <task id="LOCAL-00001" summary="Default Changelist">
+      <created>1545616470425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545616470425</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18124342" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33694476" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13169643" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5029762" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49702382" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/result/log/201804212248.log" />
-    <entry file="file://$PROJECT_DIR$/result/image/TestRunner/异常截图.png" />
-    <entry file="file://$PROJECT_DIR$/test_case/case/登录/test_登录.py" />
-    <entry file="file://$PROJECT_DIR$/result/log/201810291234.log" />
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录查询.py" />
-    <entry file="file://E:/案例/csv2xml.py">
+    <entry file="file://$PROJECT_DIR$/message_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="221">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/image/我的/我的出借/CJJL-001/001出借记录详情页面.png" />
-    <entry file="file://C:/Python34/Lib/logging/__init__.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/ycd360_put_assert.py" />
+    <entry file="file://$PROJECT_DIR$/package/interface/finance_products.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="1265" column="36" lean-forward="true" selection-start-line="1265" selection-start-column="36" selection-end-line="1265" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_001 - 副本.py" />
-    <entry file="file://E:/Script/东莞银行.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/put_task_action_submit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="293" column="15" selection-start-line="293" selection-start-column="8" selection-end-line="293" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/models/mobileFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_002.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_003.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_007.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_005.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_006.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_004.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/出借记录/test_出借记录_001.py" />
-    <entry file="file://$PROJECT_DIR$/package/models/mobileDriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/models/asset_mobile_setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/models/ycd360_web_setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/models/ycd360_mobile_setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="231" column="4" selection-start-line="231" selection-start-column="4" selection-end-line="231" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="535" column="32" selection-start-line="535" selection-start-column="32" selection-end-line="535" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/selenium/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/selenium/webdriver/common/by.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="85">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package/process_obj/processed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/case/ycd360_mobile/出借记录/test_出借记录查询.py" />
     <entry file="file://$PROJECT_DIR$/result/image/无数据/'XZJJ-001/002登录成功截图.png" />
     <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_web/test_新增进件001.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_web/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package/models/screenshot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/image/异常截图/异常截图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/image/新增进件/车抵贷业务流/XZJJ-003/001打开登录页面成功.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/image/新增进件/车抵贷业务流/XZJJ-003/002登录成功截图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/image/异常截图/异常截图.png" />
     <entry file="file://$PROJECT_DIR$/test_case/case/ycd360_mobile/出借记录/test_出借记录_001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -684,7 +641,7 @@
     <entry file="file://$PROJECT_DIR$/test_case/case/asset_web/test_新增进件001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
-          <caret line="94" column="37" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="37" />
+          <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -695,82 +652,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Script/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/Script/11.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRunner.py">
+    <entry file="file://$PROJECT_DIR$/package/models/HTMLTestRunner.py" />
+    <entry file="file://C:/Python34/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="288">
+          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_web/新增进件/test_新增进件001.py">
+    <entry file="file://$PROJECT_DIR$/package/models/webDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Script/456.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/AutoTest1/package/models/mobileDriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
-          <folding>
-            <element signature="e#38#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="182">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package/models/getDateTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        <state relative-caret-position="504">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AutoTest1/package/models/mobileDriver.py" />
+    <entry file="file://E:/Script/测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-541">
+          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/interface/switch_position.py" />
+    <entry file="file://$PROJECT_DIR$/package/interface/asset_push1.py" />
+    <entry file="file://$PROJECT_DIR$/package/interface/finance_products.py" />
+    <entry file="file://$PROJECT_DIR$/package/interface/asset_push.py" />
+    <entry file="file://$PROJECT_DIR$/package/interface/login.py" />
+    <entry file="file://$PROJECT_DIR$/package/models/httpTool.py" />
+    <entry file="file://D:/MyDocuments/Documents/WeChat Files/FANG-250/Files/Python1(1).py" />
+    <entry file="file://E:/Script/sel.py" />
+    <entry file="file://E:/Script/东莞银行.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/案例/csv2xml.py" />
+    <entry file="file://E:/Script/456.py" />
+    <entry file="file://C:/Python34/Lib/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="1112" column="8" lean-forward="false" selection-start-line="1112" selection-start-column="8" selection-end-line="1112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/interface/asset_items.py" />
+    <entry file="file://D:/BaiduNetdiskDownload/Python_上农商项目脚本wheel等.py" />
+    <entry file="file://D:/MyDocuments/Documents/WeChat Files/FANG-250/Files/Python1(3).py" />
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/FANG-250/Files/Python1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="618" column="30" lean-forward="true" selection-start-line="618" selection-start-column="30" selection-end-line="618" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/启动手机driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/interface/put_task_action_submit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="165" column="30" lean-forward="true" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123.py" />
+    <entry file="file://$PROJECT_DIR$/create_assert_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="572" column="6" lean-forward="false" selection-start-line="572" selection-start-column="6" selection-end-line="572" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/models/unittest_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/execute_case/ycd360_mobile/登录/test_登录.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/template/asset/web/asset_items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/models/messageTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_web/新增进件/test_新增进件001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/models/webFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#38#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/models/unittest_setup.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/ycd360_put_assert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding>
-            <element signature="e#38#78#0" expanded="true" />
-            <marker date="1542005167658" expanded="true" signature="591:597" ph="..." />
-            <marker date="1542005167658" expanded="true" signature="638:639" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/template/asset/web/asset_items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/models/webFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="301" column="37" lean-forward="true" selection-start-line="301" selection-start-column="37" selection-end-line="301" selection-end-column="37" />
-          <folding>
-            <element signature="e#15#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
