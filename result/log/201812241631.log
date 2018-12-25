@@ -1,0 +1,18 @@
+2018-12-24 16:31:26,595 - BrowserEngine - INFO - Starting Chrome browser.
+2018-12-24 16:31:31,549 - BrowserEngine - INFO - Open url: http://asset-daily.ycd360.cn
+2018-12-24 16:31:32,691 - BrowserEngine - INFO - Maximize the current window.
+2018-12-24 16:31:32,693 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-12-24 16:31:33,046 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[1]/div/div/input 
+2018-12-24 16:31:33,148 - FunctionLibrary - INFO - Had type ' 18519030808 ' in inputBox
+2018-12-24 16:31:33,163 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[2]/div/div/input 
+2018-12-24 16:31:33,226 - FunctionLibrary - INFO - Had type ' asdf1234 ' in inputBox
+2018-12-24 16:31:33,238 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[3]/button 
+2018-12-24 16:31:33,322 - FunctionLibrary - INFO - The element ' 登 录 ' was clicked.
+2018-12-24 16:31:38,322 - FunctionLibrary - INFO - Sleep for 5 seconds
+2018-12-24 16:31:38,709 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[1]/div[3]/div[3]/div/span 
+2018-12-24 16:31:38,773 - FunctionLibrary - INFO - The element ' 管理员 ' was clicked.
+2018-12-24 16:31:38,872 - FunctionLibrary - INFO - Not found 营业部 text.
+2018-12-24 16:31:41,872 - FunctionLibrary - INFO - Sleep for 3 seconds
+2018-12-24 16:31:41,914 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[2]/ul/li[5] 
+2018-12-24 16:31:42,009 - FunctionLibrary - INFO - The element ' 资产公司管理
+账户信息管理 ' was clicked.

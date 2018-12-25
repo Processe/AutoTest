@@ -3,10 +3,11 @@
 
 from models.screenshot import Screenshot
 from models.getDateTools import GetDataTools
-from models.webFunction import FunctionLibrary
+from models.webFunction import FunctionLibrary as wf
+from models.mobileFunction import FunctionLibrary as mf
 from models.webDriver import BrowserEngine
 from models.mobileDriver import Mobile
-from processed import Process
+from process_obj.processed import Process
 
 
 class Setup(object):
@@ -30,7 +31,7 @@ class Setup(object):
         self.caseid = caseID
         driver = BrowserEngine()
         self.driver = driver.open_browser()
-        self.functionlibrary = FunctionLibrary(self.driver)
+        self.functionlibrary = wf(self.driver)
         self.datatools = GetDataTools("资管系统")
         self.module = self.datatools.getExcelDateRowValue(self.trade, '案例所属模块', self.caseid)
         self.process = Process(self.driver, self.module, self.caseid)
@@ -45,7 +46,7 @@ class Setup(object):
         self.caseid = caseID
         mobile = Mobile()
         self.driver = mobile.open_app()
-        self.functionlibrary = FunctionLibrary(self.driver)
+        self.functionlibrary = mf(self.driver)
         self.datatools = GetDataTools("资管系统")
         self.module = self.datatools.getExcelDateRowValue(self.trade, '案例所属模块', self.caseid)
         self.process = Process(self.driver, self.module, self.caseid)
@@ -60,7 +61,7 @@ class Setup(object):
         self.caseid = caseID
         driver = BrowserEngine()
         self.driver = driver.open_browser()
-        self.functionlibrary = FunctionLibrary(self.driver)
+        self.functionlibrary = wf(self.driver)
         self.datatools = GetDataTools("易港金融")
         self.module = self.datatools.getExcelDateRowValue(self.trade, '案例所属模块', self.caseid)
         self.process = Process(self.driver, self.module, self.caseid)
@@ -75,7 +76,7 @@ class Setup(object):
         self.caseid = caseID
         mobile = Mobile()
         self.driver = mobile.open_app()
-        self.functionlibrary = FunctionLibrary(self.driver)
+        self.functionlibrary = mf(self.driver)
         self.datatools = GetDataTools("易港金融")
         self.module = self.datatools.getExcelDateRowValue(self.trade, '案例所属模块', self.caseid)
         self.process = Process(self.driver, self.module, self.caseid)

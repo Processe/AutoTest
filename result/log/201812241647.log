@@ -1,0 +1,28 @@
+2018-12-24 16:47:38,876 - BrowserEngine - INFO - Starting Chrome browser.
+2018-12-24 16:47:42,007 - BrowserEngine - INFO - Open url: http://asset-daily.ycd360.cn
+2018-12-24 16:47:43,164 - BrowserEngine - INFO - Maximize the current window.
+2018-12-24 16:47:43,165 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-12-24 16:47:43,539 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[1]/div/div/input 
+2018-12-24 16:47:43,644 - FunctionLibrary - INFO - Had type ' 18519030808 ' in inputBox
+2018-12-24 16:47:43,657 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[2]/div/div/input 
+2018-12-24 16:47:43,713 - FunctionLibrary - INFO - Had type ' asdf1234 ' in inputBox
+2018-12-24 16:47:43,727 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[3]/button 
+2018-12-24 16:47:43,807 - FunctionLibrary - INFO - The element ' 登 录 ' was clicked.
+2018-12-24 16:47:48,807 - FunctionLibrary - INFO - Sleep for 5 seconds
+2018-12-24 16:47:49,171 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[1]/div[3]/div[3]/div/span 
+2018-12-24 16:47:49,233 - FunctionLibrary - INFO - The element ' 管理员 ' was clicked.
+2018-12-24 16:47:49,325 - FunctionLibrary - INFO - Not found 营业部 text.
+2018-12-24 16:47:52,325 - FunctionLibrary - INFO - Sleep for 3 seconds
+2018-12-24 16:47:52,366 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[2]/ul/li[5] 
+2018-12-24 16:47:52,474 - FunctionLibrary - INFO - The element ' 资产公司管理
+账户信息管理 ' was clicked.
+2018-12-24 16:48:12,849 - testServer - INFO - You had select 4723 port.
+2018-12-24 16:48:12,850 - testServer - INFO - The test server deviceName is: 127.0.0.1:62001
+2018-12-24 16:48:12,850 - testServer - INFO - The test server platformName is: Android
+2018-12-24 16:48:12,850 - testServer - INFO - The test server url is: 127.0.0.1
+2018-12-24 16:48:12,850 - testServer - INFO - The APP Type appPackage is: com.ygjr.ycd.debug
+2018-12-24 16:48:12,850 - testServer - INFO - The APP Type appActivity is: com.ygjr.ycd.activity.StartPageAct
+2018-12-24 16:48:12,851 - testServer - INFO - -----------------webdriver建立完成-----------------
+2018-12-24 16:48:12,857 - test_case - INFO - ------CJJL_001开始执行------
+2018-12-24 16:48:19,816 - function - INFO - The function ClickByName By name is: 我的
+2018-12-24 16:48:21,815 - function - INFO - ID为com.ygjr.ycd.debug:id/dialog_iv_close的对象不存在！

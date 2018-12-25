@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+from selenium import webdriver
 import os.path
 
 dir_path = get_obj_path()
@@ -34,6 +35,34 @@ class ScriptError(Exception):
         return repr(self.value)
 
 
+def exception(func):
+    """
+    异常装饰器，用来替代try except
+    """
+
+    def wrapper(*args, **kwargs):
+        try:
+            return func(*args, **kwargs)
+        except Exception as e:
+            # screenshot = Screenshot(func.driver, "", "异常截图")
+            funcName = func.__name__
+            # self = args[0]
+            # 组装异常信息
+            paramsStr = "--".join([str(v) for k, v in enumerate(args) if k > 0])
+            x = "[Error]:" + funcName + "--" + paramsStr
+            # if funcName != "takeTakesScreenshot":
+            #     # 当异常信息不是来自于截图的时候才进行截图，防止因截图异常而引起死循环
+            #     screenshot.takeTakesScreenshot("异常截图")
+            #     # self.quitDriver("1")
+            #     # 删除driver.ini文件
+            #     # 关闭webdriver
+            #     func.driver.quit()
+            logger.info(x)
+            raise e
+
+    return wrapper
+
+
 class FunctionLibrary(object):
     """
     定义一个页面基类，让所有页面都继承这个类，封装一些常用的页面操作方法到这个类
@@ -42,31 +71,6 @@ class FunctionLibrary(object):
     def __init__(self, driver):
         self.driver = driver
         # quit browser and end testing
-
-    def exception(func):
-        """
-        异常装饰器，用来替代try except
-        """
-        def wrapper(*args, **kwargs):
-            try:
-                return func(*args, **kwargs)
-            except Exception as e:
-                screenshot = Screenshot(func.driver, "", "异常截图")
-                funcName = function.__name__
-                # self = args[0]
-                # 组装异常信息
-                paramsStr = "--".join([str(v) for k, v in enumerate(args) if k > 0])
-                x = "[Error]:" + funcName + "--" + paramsStr
-                if funcName != "takeTakesScreenshot":
-                    # 当异常信息不是来自于截图的时候才进行截图，防止因截图异常而引起死循环
-                    screenshot.takeTakesScreenshot("异常截图")
-                # self.quitDriver("1")
-                # 删除driver.ini文件
-                # 关闭webdriver
-                func.driver.quit()
-                logger.info(x)
-                raise e
-        return wrapper
 
     def quit_browser(self):
         self.driver.quit()

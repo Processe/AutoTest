@@ -4,7 +4,7 @@
 import os
 import time
 import unittest
-import package.models.HTMLTestRunner
+from package.models import HTMLTestRunner
 
 test_dir = './test_case/execute_case/'
 report_dir = './report/'

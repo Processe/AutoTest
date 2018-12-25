@@ -14,12 +14,12 @@ class TestXZJJ(unittest.TestCase):
         self.caseid = "XZJJ-008"
 
     def test_procedure(self):
-        case = AssetItem(self.trade, self.caseid)
-        case.add_asset()
-
-    def test_app(self):
         case1 = LendRecord("出借记录", "CJJL_001")
         case1.lend_record()
+
+    def test_app(self):
+        case = AssetItem(self.trade, self.caseid)
+        case.add_asset()
 
     def tearDown(self):
         """

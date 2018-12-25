@@ -1,0 +1,25 @@
+2018-12-24 16:26:26,279 - testServer - INFO - You had select 4723 port.
+2018-12-24 16:26:26,279 - testServer - INFO - The test server deviceName is: 127.0.0.1:62001
+2018-12-24 16:26:26,279 - testServer - INFO - The test server platformName is: Android
+2018-12-24 16:26:26,279 - testServer - INFO - The test server url is: 127.0.0.1
+2018-12-24 16:26:26,279 - testServer - INFO - The APP Type appPackage is: com.ygjr.ycd.debug
+2018-12-24 16:26:26,279 - testServer - INFO - The APP Type appActivity is: com.ygjr.ycd.activity.StartPageAct
+2018-12-24 16:26:26,279 - testServer - INFO - -----------------webdriver建立完成-----------------
+2018-12-24 16:26:26,292 - test_case - INFO - ------CJJL_001开始执行------
+2018-12-24 16:26:28,635 - BrowserEngine - INFO - Starting Chrome browser.
+2018-12-24 16:26:31,650 - BrowserEngine - INFO - Open url: http://asset-daily.ycd360.cn
+2018-12-24 16:26:32,776 - BrowserEngine - INFO - Maximize the current window.
+2018-12-24 16:26:32,776 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-12-24 16:26:33,137 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[1]/div/div/input 
+2018-12-24 16:26:33,256 - FunctionLibrary - INFO - Had type ' 18519030808 ' in inputBox
+2018-12-24 16:26:33,269 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[2]/div/div/input 
+2018-12-24 16:26:33,335 - FunctionLibrary - INFO - Had type ' asdf1234 ' in inputBox
+2018-12-24 16:26:33,352 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div/form/div[3]/button 
+2018-12-24 16:26:33,440 - FunctionLibrary - INFO - The element ' 登 录 ' was clicked.
+2018-12-24 16:26:38,440 - FunctionLibrary - INFO - Sleep for 5 seconds
+2018-12-24 16:26:38,797 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[1]/div[3]/div[3]/div/span 
+2018-12-24 16:26:38,868 - FunctionLibrary - INFO - The element ' 管理员 ' was clicked.
+2018-12-24 16:26:38,957 - FunctionLibrary - INFO - Not found 营业部 text.
+2018-12-24 16:26:41,957 - FunctionLibrary - INFO - Sleep for 3 seconds
+2018-12-24 16:26:41,970 - FunctionLibrary - INFO - Had find the element successful by xpath via value: //*[@id='app']/div/div[2]/ul/li[5] 
+2018-12-24 16:26:42,039 - FunctionLibrary - INFO - The element ' 资产公司管理 ' was clicked.

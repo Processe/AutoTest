@@ -29,6 +29,32 @@ PATH = lambda p: os.path.abspath(
 path = get_obj_path()
 
 
+def excepTion(function):
+    """
+    异常装饰器，用来替代try except
+    """
+
+    def wrapper(*args, **keyargs):
+        try:
+            return function(*args, **keyargs)
+        except Exception as e:
+            # log the exception
+            funcName = function.__name__
+            self = args[0]
+            # 组装异常信息
+            paramsStr = "--".join([str(v) for k, v in enumerate(args) if k > 0])
+            x = "[Error]:" + funcName + "--" + paramsStr + "  [异常信息：%s]" % repr(e)
+            if funcName != "takeTakesScreenshot":
+                # 当异常信息不是来自于截图的时候才进行截图，防止因截图异常而引起死循环
+                self.screenshot.takeTakesScreenshot("异常截图", funcName)
+            self.mobile_driver.quit()
+            # 删除driver.ini文件
+            # re-raise the exception
+            raise ScriptError(x)
+
+    return wrapper
+
+
 class ScriptError(Exception):
     '''
     返回报错信息类
@@ -47,29 +73,6 @@ class FunctionLibrary(object):
         # self.mobile_driver = mobile.mobile_setConfig().driver
         self.mobile_driver = driver
         self.screenshot = Screenshot(driver, '异常截图', '')
-
-    def excepTion(function):
-        """
-        异常装饰器，用来替代try except
-        """
-        def wrapper(*args, **keyargs):
-            try:
-                return function(*args, **keyargs)
-            except Exception as e:
-                # log the exception
-                funcName = function.__name__
-                self = args[0]
-                # 组装异常信息
-                paramsStr = "--".join([str(v) for k, v in enumerate(args) if k > 0])
-                x = "[Error]:"+funcName+"--"+paramsStr+"  [异常信息：%s]" % repr(e)
-                if funcName != "takeTakesScreenshot":
-                    # 当异常信息不是来自于截图的时候才进行截图，防止因截图异常而引起死循环
-                    self.screenshot.takeTakesScreenshot("异常截图", funcName)
-                self.mobile_driver.quit()
-                # 删除driver.ini文件
-                # re-raise the exception
-                raise ScriptError(x)
-        return wrapper
 
     @excepTion
     def CheckByNameIsDisplayed(self, name):

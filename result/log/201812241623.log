@@ -1,0 +1,8 @@
+2018-12-24 16:23:10,617 - testServer - INFO - You had select 4723 port.
+2018-12-24 16:23:10,618 - testServer - INFO - The test server deviceName is: 127.0.0.1:62001
+2018-12-24 16:23:10,618 - testServer - INFO - The test server platformName is: Android
+2018-12-24 16:23:10,618 - testServer - INFO - The test server url is: 127.0.0.1
+2018-12-24 16:23:10,618 - testServer - INFO - The APP Type appPackage is: com.ygjr.ycd.debug
+2018-12-24 16:23:10,618 - testServer - INFO - The APP Type appActivity is: com.ygjr.ycd.activity.StartPageAct
+2018-12-24 16:23:10,618 - testServer - INFO - -----------------webdriver建立完成-----------------
+2018-12-24 16:23:10,637 - test_case - INFO - ------CJJL_001开始执行------
