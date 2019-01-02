@@ -3,10 +3,10 @@
 
 from assetDB import AssetDB
 from httpTool import Http
+from package.interface import finance_products
 
 
-def asset_items_add(sessions, assetType, customerTelephone, borrowAmount, rateMethod, repaymentWay, repaymentDuration,
-                    financeProductId, customerName, idCard, sex):
+def asset_items_add(sessions, assetType, customerTelephone, borrowAmount, financeProductId, customerName, idCard, sex):
     # 实例化http请求
     http = Http()
     # 实例化数据库
@@ -17,13 +17,19 @@ def asset_items_add(sessions, assetType, customerTelephone, borrowAmount, rateMe
     # 获取资产类型ID
     asset_id = database.get_one("select id from sys_asset where name = '%s'" % assetType)[0]
     # print(asset_id)
+    # 计息方式
+    rateMethod = finance_products.finance_products(sessions, financeProductId, "计息方式")
+    # 还款方式
+    repayment = finance_products.finance_products(sessions, financeProductId, "还款方式")
+    # 还款期限
+    duration = finance_products.finance_products(sessions, financeProductId, "还款期限")
     data = dict(assetId=asset_id,
                 propertyList=[
                     {"propertyId": "61", "propertyCode": "customerTelephone", "propertyValue": customerTelephone},
                     {"propertyId": "100", "propertyCode": "borrowAmount", "propertyValue": borrowAmount},
                     {"propertyId": "194", "propertyCode": "rateMethod", "propertyValue": rateMethod},
-                    {"propertyId": "177", "propertyCode": "repaymentWay", "propertyValue": repaymentWay},
-                    {"propertyId": "308", "propertyCode": "repaymentDuration", "propertyValue": repaymentDuration},
+                    {"propertyId": "177", "propertyCode": "repaymentWay", "propertyValue": repayment},
+                    {"propertyId": "308", "propertyCode": "repaymentDuration", "propertyValue": duration},
                     {"propertyId": "171", "propertyCode": "financeProductId", "propertyValue": financeProductId},
                     {"propertyId": "307", "propertyCode": "customerSource", "propertyValue": ""},
                     {"propertyId": "20264", "propertyCode": "chedyt1", "propertyValue": ""},
@@ -59,8 +65,7 @@ def asset_items_add(sessions, assetType, customerTelephone, borrowAmount, rateMe
     return asset_item_id
 
 
-def asset_items_edit(sessions, asset_item_id, assetType, customerTelephone, borrowAmount, rateMethod, repaymentWay,
-                     repaymentDuration, financeProductId, customerName, idCard, sex):
+def asset_items_edit(sessions, asset_item_id, assetType, customerTelephone, borrowAmount, financeProductId, customerName, idCard, sex):
     '''
     编辑资产接口
     :return:
@@ -71,14 +76,20 @@ def asset_items_edit(sessions, asset_item_id, assetType, customerTelephone, borr
     database = AssetDB()
     # 获取资产类型ID
     asset_id = database.get_one("select id from sys_asset where name = '%s'" % assetType)[0]
+    # 计息方式
+    rateMethod = finance_products.finance_products(sessions, financeProductId, "计息方式")
+    # 还款方式
+    repayment = finance_products.finance_products(sessions, financeProductId, "还款方式")
+    # 还款期限
+    duration = finance_products.finance_products(sessions, financeProductId, "还款期限")
     data = {"assetId": asset_id,
             "id": asset_item_id,
             "propertyList": [
                 {"propertyId": "61", "propertyCode": "customerTelephone", "propertyValue": customerTelephone},  # 手机号码
                 {"propertyId": "100", "propertyCode": "borrowAmount", "propertyValue": borrowAmount},  # 借款金额
                 {"propertyId": "194", "propertyCode": "rateMethod", "propertyValue": rateMethod},  # 计息方式
-                {"propertyId": "177", "propertyCode": "repaymentWay", "propertyValue": repaymentWay},  # 还款方式
-                {"propertyId": "308", "propertyCode": "repaymentDuration", "propertyValue": repaymentDuration},  # 还款期限
+                {"propertyId": "177", "propertyCode": "repaymentWay", "propertyValue": repayment},  # 还款方式
+                {"propertyId": "308", "propertyCode": "repaymentDuration", "propertyValue": duration},  # 还款期限
                 {"propertyId": "171", "propertyCode": "financeProductId", "propertyValue": financeProductId},  # 金融产品
                 {"propertyId": "307", "propertyCode": "customerSource", "propertyValue": ""},  # 客户来源
                 {"propertyId": "20264", "propertyCode": "chedyt1", "propertyValue": ""},  # 车贷用途

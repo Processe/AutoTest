@@ -8,8 +8,7 @@ from models.logger import Logger
 logger = Logger(logger="processed").getlog()
 
 
-class Process():
-
+class Process:
     def __init__(self, driver, case_modle, case_id):
         self.driver = driver
         self.functionlibrary = FunctionLibrary(self.driver)

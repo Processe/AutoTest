@@ -80,18 +80,18 @@ if __name__ == "__main__":
 
     session = login.get_session("18519030808", "1adbb3178591fd5bb0c248518f39bf6d")
     switch_position.switch_position(session, positionId)
-    # 计息方式
-    rateMethod = finance_products.finance_products(session, product_id, "计息方式")
-    # 还款方式
-    repayment = finance_products.finance_products(session, product_id, "还款方式")
-    # 还款期限
-    duration = finance_products.finance_products(session, product_id, "还款期限")
+    # # 计息方式
+    # rateMethod = finance_products.finance_products(session, product_id, "计息方式")
+    # # 还款方式
+    # repayment = finance_products.finance_products(session, product_id, "还款方式")
+    # # 还款期限
+    # duration = finance_products.finance_products(session, product_id, "还款期限")
 
-    asset_item_id = asset_items.asset_items_add(session, asset_type, phone, account, rateMethod, repayment, duration,
+    asset_item_id = asset_items.asset_items_add(session, asset_type, phone, account,
                                                 product_id, name, ICcard, "M")
-    asset_items.asset_items_edit(session, asset_item_id, asset_type, phone, account, rateMethod, repayment, duration,
+    asset_items.asset_items_edit(session, asset_item_id, asset_type, phone, account,
                                  product_id, name, ICcard, "M")
-    put_task_action_submit.task_submit_risk_info_personal(session, asset_item_id, bank_phone, name, ICcard,
-                                                          isEntrustedPayment, riskLevel, bank_card, purpose)
+    # put_task_action_submit.task_submit_risk_info_personal(session, asset_item_id, bank_phone, name, ICcard,
+    #                                                       isEntrustedPayment, riskLevel, bank_card, purpose)
     put_task_action_submit.task_submit_risk_info_company(session, asset_item_id, bank_phone, name, gongsi_card,
                                                          isEntrustedPayment, riskLevel, bank_card, purpose, cardType)

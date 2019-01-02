@@ -7,7 +7,7 @@ from models.assetDB import AssetDB
 
 def task_submit_risk_info_personal(session, asset_items_id, bank_phone, name, ICcard, isEntrustedPayment, riskLevel,
                                    bank_card, purpose):
-    # 不传输入信息费掉的参数：account, product_id,duration, repayment, phone,
+    # 不传输入信息废掉的参数：account, product_id,duration, repayment, phone,
     '''
     提交风控信息
     :param riskLevel:
@@ -164,8 +164,7 @@ def task_submit_risk_info_personal(session, asset_items_id, bank_phone, name, IC
 
 
 def task_submit_risk_info_company(session, asset_items_id, bank_phone, name, gongsi_card, isEntrustedPayment, riskLevel,
-                                  bank_card,
-                                  purpose, cardType):
+                                  bank_card, purpose, cardType):
     '''
     新车垫资贷，提交风控信息
     :param session:

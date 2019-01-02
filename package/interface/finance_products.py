@@ -26,7 +26,7 @@ def finance_products(session, products_id, info):
     getinfo = None
     if status == 200:
         if r_json["success"] is True:
-            print("查询金融产品信息成功：" + rt)
+            # print("查询金融产品信息成功：" + rt)
             if info == "计息方式":
                 getinfo = r_json["data"]["rateMethod"]  # 计息方式
             elif info == "还款方式":

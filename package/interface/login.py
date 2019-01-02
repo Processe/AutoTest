@@ -2,6 +2,9 @@
 # --author='fangfang'
 
 from httpTool import Http
+from models.logger import Logger
+
+log = Logger(logger="asset_login").getlog()
 
 
 def asset_login(username, password):
@@ -17,13 +20,10 @@ def asset_login(username, password):
     status = r.status_code
     rt = r.text
     r_json = r.json()
-    if status == 200:
-        if r_json["success"] is True:
-            print("登录成功：" + rt)
-        else:
-            print("登录失败：" + rt)
-    else:
-        print("登录失败：" + rt)
+    log.info("asset_login接口访问：%s" % str(datas))
+    return r_json
+
+
 
 
 def get_session(username, password):
@@ -50,5 +50,5 @@ def get_session(username, password):
 
 
 if __name__ == "__main__":
-    print(get_session("18519030809", "1adbb3178591fd5bb0c248518f39bf6d"))
+    print(asset_login("18519030808", "1adbb3178591fd5bb0c248518f39bf6d"))
 

@@ -3,6 +3,7 @@
 
 import os
 import xlrd
+from openpyxl import load_workbook
 from models.path import get_obj_path
 
 sep = os.path.sep  # 当前系统分隔符
@@ -66,8 +67,7 @@ class GetDataTools:
                 datas = sheet.row_values(i)
         return datas
 
-
-    def getExcelDateRowValue(self, sheetName, colvalue, rowvalue):
+    def getExcelDateRowValue(self, sheetName, rowvalue, colvalue):
         '''
         根据列名，行名获取值
         :param file: 数据文件
@@ -99,4 +99,43 @@ class GetDataTools:
         case_modle = self.getExcelDateRowValue(sheetName, "案例所属模块", rowvalue)
         case_modle_path = case_modle.replace('|', '\\')
         return case_modle_path
+
+    def setExcelDateRowValue(self, sheetName, rowvalue, colvalue, value):
+        rbook = xlrd.open_workbook(self.data_path)
+        sheet = rbook.sheet_by_name(sheetName)
+        rows = sheet.nrows
+        cols = sheet.ncols
+        col_index = 1
+        row_index = 1
+        data = '无数据'
+        # 循环表查找指定行和列所在表格的行和列
+        for c in range(cols):
+            cls_data = sheet.cell_value(0, c)
+            if cls_data == colvalue:
+                for r in range(rows):
+                    row_data = sheet.cell_value(r, 0)
+                    if row_data == rowvalue:
+                        # data = sheet.cell_value(row_index, col_index)
+                        break
+                    row_index += 1
+                break
+            col_index += 1
+        # wbook = copy(rbook)
+        sheets = rbook.sheets()
+        sheet_index = 0
+        # 循环表格sheet页获取表格index
+        # for i in sheets:
+        #     if i == sheetName:
+        #         break
+        #     else:
+        #         sheet_index += sheet_index
+        wbook = load_workbook(self.data_path)
+        sheet = wbook.get_sheet_by_name(sheetName)
+        sheet.cell(row=row_index, column=col_index, value=value)
+        wbook.save(self.data_path)
+
+
+if __name__ == '__main__':
+    dt = GetDataTools("资管接口")
+    dt.setExcelDateRowValue('登录', '执行结果', 'ZGXT_DL_004', '执行成功')
 
