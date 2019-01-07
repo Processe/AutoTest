@@ -1,6 +1,0 @@
-2019-01-05 00:44:31,609 - assetDataBase - INFO - Connect DB successfully!
-2019-01-05 00:44:31,609 - assetDataBase - INFO - Connect DB successfully!
-2019-01-05 00:44:31,648 - assetDataBase - INFO - Database closed!
-2019-01-05 00:44:31,648 - assetDataBase - INFO - Database closed!
-2019-01-05 00:44:31,714 - task_submit_risk_info - INFO - 访问task_submit_risk_info接口response{"code":"","success":false,"message":"[0704] 任务权限检查失败,请检查当前岗位"}
-2019-01-05 00:44:31,714 - task_submit_risk_info - INFO - 访问task_submit_risk_info接口response{"code":"","success":false,"message":"[0704] 任务权限检查失败,请检查当前岗位"}
