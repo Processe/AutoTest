@@ -1,0 +1,6 @@
+2019-01-05 01:40:29,486 - assetDataBase - INFO - Connect DB successfully!
+2019-01-05 01:40:29,486 - assetDataBase - INFO - Connect DB successfully!
+2019-01-05 01:40:29,510 - assetDataBase - INFO - Database closed!
+2019-01-05 01:40:29,510 - assetDataBase - INFO - Database closed!
+2019-01-05 01:40:29,589 - task_submit_risk_info - INFO - 访问task_submit_risk_info接口response{"code":"","success":false,"message":null}
+2019-01-05 01:40:29,589 - task_submit_risk_info - INFO - 访问task_submit_risk_info接口response{"code":"","success":false,"message":null}

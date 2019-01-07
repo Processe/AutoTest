@@ -2,6 +2,9 @@
 # --author='fangfang'
 
 from models.httpTool import Http
+from package.models.logger import Logger
+
+log = Logger(logger='finance_products').getlog()
 
 
 def finance_products(session, products_id, info):
@@ -42,5 +45,5 @@ def finance_products(session, products_id, info):
     # li.append(repayment)
     # li.append(duration)
 
-    print("查询产品信息【" + info + "】为：" + str(getinfo))
+    log.info("查询产品信息【" + info + "】为：" + str(getinfo))
     return getinfo

@@ -1,15 +1,13 @@
 # coding=utf-8
 # --author='fangfang'
 
-from models.mobileFunction import FunctionLibrary
-from models.screenshot import Screenshot
-from models.mobileDriver import Mobile
-from models.getDateTools import GetDataTools
-from processed import Process
+
+from models.unittest_setup import Setup
 import unittest
 from models.logger import Logger
 
 logger = Logger(logger="test_case").getlog()
+
 
 class TestCJJL(unittest.TestCase):
     def setUp(self):
@@ -17,22 +15,24 @@ class TestCJJL(unittest.TestCase):
         实例化基础类
         :return:
         """
-        mobile = Mobile()
-        self.driver = mobile.open_app()
-        self.functionlibrary = FunctionLibrary(self.driver)
-        self.case_id = "出借记录_005"
-        self.datatools = GetDataTools()
-        self.case_module = self.datatools.getCaseModle('出借记录', self.case_id)
-        self.process = Process(self.driver, self.case_module, self.case_id)
-        self.screenshot = Screenshot(self.driver, self.case_module, self.case_id)
-        logger.info('------' + self.case_id + '开始执行------')
+        self.caseid = "出借记录_001"
+        self.trade = "出借记录"
+        case = Setup()
+        case.asset_web_setup(self.trade, self.caseid)
+        self.datatools = case.datatools
+        self.case_module = case.module
+        self.driver = case.driver
+        self.functionlibrary = case.functionlibrary
+        self.process = case.process
+        self.screenshot = case.screenshot
+        logger.info('------' + self.caseid + '开始执行------')
 
     def test_procedure(self):
         # -----获取测试数据------
-        username = self.datatools.getExcelDateRowValue('出借记录', '用户名', self.case_id)
-        password = self.datatools.getExcelDateRowValue('出借记录', '密码', self.case_id)
-        bdmc = self.datatools.getExcelDateRowValue('出借记录', '标的名称', self.case_id)
-        sjcjje = self.datatools.getExcelDateRowValue('出借记录', '出借本金', self.case_id)
+        username = self.datatools.getExcelDateRowValue(self.trade, self.caseid, '用户名')
+        password = self.datatools.getExcelDateRowValue(self.trade, self.caseid, '密码')
+        bdmc = self.datatools.getExcelDateRowValue(self.trade, self.caseid, '标的名称')
+        sjcjje = self.datatools.getExcelDateRowValue(self.trade, self.caseid, '出借本金')
 
         # -----业务逻辑代码------
         self.functionlibrary.ClickByName("我的")

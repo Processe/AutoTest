@@ -1,0 +1,5 @@
+2019-01-07 12:30:24,236 - assetDataBase - INFO - Connect DB successfully!
+2019-01-07 12:30:24,236 - assetDataBase - INFO - Connect DB successfully!
+2019-01-07 12:30:24,288 - assetDataBase - INFO - Database closed!
+2019-01-07 12:30:24,288 - assetDataBase - INFO - Database closed!
+2019-01-07 12:30:24,381 - submit_risk_result - INFO - 访问submit_risk_result接口response{"code":"","success":false,"message":"[0702] 关键输入发生变化,本次提交失败,信息已暂存,请刷新重试"}

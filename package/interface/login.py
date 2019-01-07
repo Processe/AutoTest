@@ -20,10 +20,8 @@ def asset_login(username, password):
     status = r.status_code
     rt = r.text
     r_json = r.json()
-    log.info("asset_login接口访问：%s" % str(datas))
+    log.info("访问asset_login接口response：%s" % rt)
     return r_json
-
-
 
 
 def get_session(username, password):
@@ -38,14 +36,15 @@ def get_session(username, password):
     session_id = r.cookies["SESSION"]
     status = r.status_code
     rt = r.text
-    r_json = r.json()
-    if status == 200:
-        if r_json["success"] is True:
-            print("登录成功：" + rt)
-        else:
-            print("登录失败：" + rt)
-    else:
-        print("登录失败：" + rt)
+    # r_json = r.json()
+    # if status == 200:
+    #     if r_json["success"] is True:
+    #         print("登录成功：" + rt)
+    #     else:
+    #         print("登录失败：" + rt)
+    # else:
+    #     print("登录失败：" + rt)
+    log.info("访问get_session接口response：%s" % rt)
     return session_id
 
 

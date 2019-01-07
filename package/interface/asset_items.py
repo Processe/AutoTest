@@ -4,6 +4,9 @@
 from assetDB import AssetDB
 from httpTool import Http
 from package.interface import finance_products
+from package.models.logger import Logger
+
+log = Logger(logger="asset_items").getlog()
 
 
 def asset_items_add(sessions, assetType, customerTelephone, borrowAmount, financeProductId, customerName, idCard, sex):
@@ -55,13 +58,10 @@ def asset_items_add(sessions, assetType, customerTelephone, borrowAmount, financ
     http.set_data(data)
     r = http.postWithJson()
     status = r.status_code
+    rt = r.text
     data_json = r.json()
-    asset_item_id = None
-    if status == 200:
-        print("新增进件成功：" + r.text)
-        asset_item_id = data_json["data"]
-    else:
-        print("新增进件失败：" + r.text)
+    asset_item_id = data_json["data"]
+    log.info("访问asset_login接口response：%s" % rt)
     return asset_item_id
 
 
@@ -119,8 +119,7 @@ def asset_items_edit(sessions, asset_item_id, assetType, customerTelephone, borr
     http.set_data(data)
     r = http.putWithJson()
     status = r.status_code
-    if status == 200:
-        print("编辑进件信息成功" + r.text)
-    else:
-        print("编辑进件信息失败" + r.text)
-
+    rt = r.text
+    r_json = r.json()
+    log.info("访问asset_login接口response：%s" % rt)
+    return r_json

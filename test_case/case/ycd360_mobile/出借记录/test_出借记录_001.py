@@ -28,10 +28,10 @@ class TestCJJL(unittest.TestCase):
 
     def test_procedure(self):
         # -----获取测试数据------
-        username = self.datatools.getExcelDateRowValue('出借记录', '用户名', self.caseid)
-        password = self.datatools.getExcelDateRowValue('出借记录', '密码', self.caseid)
-        bdmc = self.datatools.getExcelDateRowValue('出借记录', '标的名称', self.caseid)
-        bdzt = self.datatools.getExcelDateRowValue('出借记录', '标的状态', self.caseid)
+        username = self.datatools.getExcelDateRowValue(self.trade, self.caseid, '用户名')
+        password = self.datatools.getExcelDateRowValue(self.trade, self.caseid, '密码')
+        bdmc = self.datatools.getExcelDateRowValue(self.trade, self.caseid, '标的名称')
+        bdzt = self.datatools.getExcelDateRowValue(self.trade, self.caseid, '标的状态')
 
         # -----业务逻辑代码------
         self.functionlibrary.ClickByName("我的")

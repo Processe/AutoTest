@@ -5,7 +5,7 @@ import pymysql
 import readConfig
 from models.logger import Logger
 
-logger = Logger(logger="assetDataBase").getlog()
+log = Logger(logger="assetDataBase").getlog()
 
 
 class AssetDB:
@@ -29,9 +29,9 @@ class AssetDB:
             self.db = pymysql.connect(host=self.host, port=self.port, user=self.username, passwd=self.password, db=self.database, charset='utf8')
             # create cursor
             self.cursor = self.db.cursor()
-            print("Connect DB successfully!")
+            log.info("Connect DB successfully!")
         except ConnectionError as ex:
-            logger(str(ex))
+            log.info(str(ex))
 
     def executeSQL(self, sql):
         """
@@ -52,7 +52,7 @@ class AssetDB:
         :return:
         """
         self.db.close()
-        print("Database closed!")
+        log.info("Database closed!")
 
     def get_all(self, sql):
         """

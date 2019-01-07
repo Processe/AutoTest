@@ -121,8 +121,8 @@ class GetDataTools:
                 break
             col_index += 1
         # wbook = copy(rbook)
-        sheets = rbook.sheets()
-        sheet_index = 0
+        # sheets = rbook.sheets()
+        # sheet_index = 0
         # 循环表格sheet页获取表格index
         # for i in sheets:
         #     if i == sheetName:

@@ -1,7 +1,7 @@
 # coding=utf-8
 # --author='fangfang'
 
-from package.interface import login, switch_position, asset_items, finance_products, put_task_action_submit
+from package.interface import login, switch_position, asset_items, finance_products, submit_risk_info
 
 if __name__ == "__main__":
     # 金融产品定义
@@ -15,7 +15,7 @@ if __name__ == "__main__":
     # product_id = "217"  # 新车垫资贷  --6个月等本  ---易港不存在
 
     # 岗位
-    positionId = "252"  # 业务部
+    positionId = "营业部"  # 业务部
     # 资产类型
     asset_type = "新车垫资贷"
     # asset_type = "总部快速续贷"
@@ -91,7 +91,7 @@ if __name__ == "__main__":
                                                 product_id, name, ICcard, "M")
     asset_items.asset_items_edit(session, asset_item_id, asset_type, phone, account,
                                  product_id, name, ICcard, "M")
-    # put_task_action_submit.task_submit_risk_info_personal(session, asset_item_id, bank_phone, name, ICcard,
-    #                                                       isEntrustedPayment, riskLevel, bank_card, purpose)
-    put_task_action_submit.task_submit_risk_info_company(session, asset_item_id, bank_phone, name, gongsi_card,
-                                                         isEntrustedPayment, riskLevel, bank_card, purpose, cardType)
+    submit_risk_info.task_submit_risk_info_personal(session, asset_item_id, bank_phone, name, ICcard,
+                                                    isEntrustedPayment, riskLevel, bank_card, purpose)
+    # put_task_action_submit.task_submit_risk_info_company(session, asset_item_id, bank_phone, name, gongsi_card,
+    #                                                      isEntrustedPayment, riskLevel, bank_card, purpose, cardType)
