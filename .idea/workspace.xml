@@ -2,133 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b91366-c773-4626-887d-2020f944ed96" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="" afterPath="$PROJECT_DIR$/package/interface/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/TestRunner.py" afterPath="$PROJECT_DIR$/TestRunner.py" />
-      <change beforePath="$PROJECT_DIR$/report/result201812210922.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812210929.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812210940.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812210954.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812210958.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812210959.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812211001.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241618.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241619.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241620.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241621.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241623.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241626.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241631.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241632.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241647.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241651.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812241806.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812250859.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812250904.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812250946.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812250949.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812261630.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812261634.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812261635.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812261636.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812261637.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812261823.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812261824.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812261826.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812270850.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812270851.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812270852.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812280929.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812280933.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812280941.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812280944.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812280947.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812280950.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812281015.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201812281016.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031647.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031652.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031654.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031658.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031712.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031802.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031804.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031817.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031830.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031832.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031836.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031837.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031838.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031842.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031845.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901031846.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901032213.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901032218.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901032221.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901032222.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901032233.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901032243.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901032255.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901032257.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901042306.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901042307.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901042309.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901042319.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901042336.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050040.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050042.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050043.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050044.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050045.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050050.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050054.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050100.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050102.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050136.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050140.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901050141.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071105.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071114.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071126.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071133.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071227.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071230.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071242.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071243.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071246.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/result201901071335.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812241619.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812241620.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812241621.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812261636.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812261638.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812261823.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812261824.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812261826.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812270845.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812270846.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812270850.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812270851.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812270852.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812280929.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812280930.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812280933.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812280941.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812280944.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812280947.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201812280950.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901032213.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901032218.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901032221.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901032222.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050041.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050042.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050043.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050044.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050045.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050050.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050054.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050100.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050102.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result/log/201901050136.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/create_assert_test.py" afterPath="$PROJECT_DIR$/create_assert_test.py" />
+      <change beforePath="$PROJECT_DIR$/message_test.py" afterPath="$PROJECT_DIR$/message_test.py" />
+      <change beforePath="$PROJECT_DIR$/package/interface/asset_items.py" afterPath="$PROJECT_DIR$/package/interface/asset/asset_items.py" />
+      <change beforePath="$PROJECT_DIR$/package/interface/asset_push.py" afterPath="$PROJECT_DIR$/package/interface/asset/asset_push.py" />
+      <change beforePath="$PROJECT_DIR$/package/interface/finance_products.py" afterPath="$PROJECT_DIR$/package/interface/asset/finance_products.py" />
+      <change beforePath="$PROJECT_DIR$/package/interface/login.py" afterPath="$PROJECT_DIR$/package/interface/asset/login.py" />
+      <change beforePath="$PROJECT_DIR$/package/interface/submit_risk_info.py" afterPath="$PROJECT_DIR$/package/interface/asset/submit_risk_info.py" />
+      <change beforePath="$PROJECT_DIR$/package/interface/submit_risk_resultl.py" afterPath="$PROJECT_DIR$/package/interface/asset/submit_risk_resultl.py" />
+      <change beforePath="$PROJECT_DIR$/package/interface/switch_position.py" afterPath="$PROJECT_DIR$/package/interface/asset/switch_position.py" />
+      <change beforePath="$PROJECT_DIR$/package/interface/ycd360_put_assert.py" afterPath="$PROJECT_DIR$/package/interface/ycd360/ycd360_put_assert.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/case/asset_interface/登录/test_ZGXT_DL_001.py" afterPath="$PROJECT_DIR$/test_case/case/asset_interface/登录/test_ZGXT_DL_001.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/case/asset_interface/登录/test_ZGXT_DL_002.py" afterPath="$PROJECT_DIR$/test_case/case/asset_interface/登录/test_ZGXT_DL_002.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/case/asset_interface/登录/test_ZGXT_DL_003.py" afterPath="$PROJECT_DIR$/test_case/case/asset_interface/登录/test_ZGXT_DL_003.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/case/asset_interface/登录/test_ZGXT_DL_004.py" afterPath="$PROJECT_DIR$/test_case/case/asset_interface/登录/test_ZGXT_DL_004.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/execute_case/asset_interface/岗位切换/test_zgxt__gwqh.py" afterPath="$PROJECT_DIR$/test_case/execute_case/asset_interface/岗位切换/test_zgxt__gwqh.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/execute_case/asset_interface/提交风控信息/test_zgxt_tjfkxx.py" afterPath="$PROJECT_DIR$/test_case/execute_case/asset_interface/提交风控信息/test_zgxt_tjfkxx.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/execute_case/asset_interface/新增进件/test_zgxt_xzjj.py" afterPath="$PROJECT_DIR$/test_case/execute_case/asset_interface/新增进件/test_zgxt_xzjj.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/execute_case/asset_interface/登录/test_zgxt_dl.py" afterPath="$PROJECT_DIR$/test_case/execute_case/asset_interface/登录/test_zgxt_dl.py" />
+      <change beforePath="$PROJECT_DIR$/test_case/execute_case/asset_interface/风控审核/test_zgxt_fksh.py" afterPath="$PROJECT_DIR$/test_case/execute_case/asset_interface/风控审核/test_zgxt_fksh.py" />
       <change beforePath="$PROJECT_DIR$/test_data/资管接口.xlsx" afterPath="$PROJECT_DIR$/test_data/资管接口.xlsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,53 +117,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="asset_interface_setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/template/asset/interface/asset_interface_setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-488">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submit_risk_resultl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/interface/submit_risk_resultl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <element signature="e#38#70#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_zgxt_fksh.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_interface/风控审核/test_zgxt_fksh.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submit_risk_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/interface/submit_risk_info.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2401">
-              <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestRunner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="167">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="e#38#47#0" expanded="true" />
               </folding>
@@ -279,8 +132,8 @@
       <file leaf-file-name="create_assert_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_assert_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -452,31 +305,7 @@
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="execute_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="execute_case" type="462c0819:PsiDirectoryNode" />
-              <item name="asset_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="execute_case" type="462c0819:PsiDirectoryNode" />
-              <item name="asset_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="登录" type="462c0819:PsiDirectoryNode" />
+              <item name="package" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -490,19 +319,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AutoTest\package\interface\ycd360" />
+      <recent name="D:\AutoTest\package\interface\asset" />
+      <recent name="D:\AutoTest\test_case\execute_case\asset_interface" />
+      <recent name="D:\AutoTest\package\template\asset\interface" />
+      <recent name="D:\MobileTest\test_case\case" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AutoTest\test_case\execute_case\asset_interface" />
       <recent name="D:\AutoTest\test_case\execute_case\asset_interface\登录" />
       <recent name="D:\AutoTest\test_case\execute_case" />
       <recent name="D:\AutoTest\test_case\case\asset_interface\登录" />
       <recent name="D:\AutoTest" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\AutoTest\test_case\execute_case\asset_interface" />
-      <recent name="D:\AutoTest\package\template\asset\interface" />
-      <recent name="D:\MobileTest\test_case\case" />
-      <recent name="D:\MobileTest\test_case\execute_case" />
-      <recent name="D:\MobileTest\package" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -566,7 +395,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutoTest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package/interface/login.py" />
+      <option name="SCRIPT_NAME" value="D:\AutoTest\package\interface\asset\login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -584,7 +413,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AutoTest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package/interface/switch_position.py" />
+      <option name="SCRIPT_NAME" value="D:\AutoTest\package\interface\asset\switch_position.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -663,17 +492,28 @@
       <configuration name="Unittests for test_zgxt_xzjj.Login.test_asset_items_001" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13095239" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5029762" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35032895" sideWeight="0.49702382" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35032895" sideWeight="0.49702382" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2944079" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17598684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -681,7 +521,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -738,14 +577,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/interface/ycd360_put_assert.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/ycd360/ycd360_put_assert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
@@ -824,7 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/interface/asset_push.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/asset/asset_push.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="55" column="32" lean-forward="false" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
@@ -943,14 +775,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/interface/login.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/asset/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/interface/finance_products.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/asset/finance_products.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
@@ -964,7 +796,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/interface/switch_position.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/asset/switch_position.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
@@ -972,7 +804,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/interface/asset_items.py">
+    <entry file="file://$PROJECT_DIR$/package/interface/asset/asset_items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="72" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="72" />
@@ -988,44 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/interface/submit_risk_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2401">
-          <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/interface/submit_risk_resultl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="e#38#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_interface/提交风控信息/test_zgxt_tjfkxx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_interface/风控审核/test_zgxt_fksh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_assert_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1038,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/template/asset/interface/asset_interface_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_interface/登录/test_zgxt_dl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1054,10 +844,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package/interface/asset/submit_risk_resultl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#38#70#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/execute_case/asset_interface/风控审核/test_zgxt_fksh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/interface/asset/submit_risk_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2401">
+          <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_assert_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/template/asset/interface/asset_interface_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/models/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+          <folding>
+            <element signature="e#3215#3230#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+        <state relative-caret-position="167">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#38#47#0" expanded="true" />
           </folding>

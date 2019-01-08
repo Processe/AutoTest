@@ -1,7 +1,7 @@
 # coding=utf-8
 # --author='fangfang'
 
-from package.interface.ycd360_put_assert import ycd360_assert
+from interface.ycd360.ycd360_put_assert import ycd360_assert
 
 ya = ycd360_assert()
 

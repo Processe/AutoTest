@@ -1,7 +1,7 @@
 # coding=utf-8
 # --author='fangfang'
 
-from package.interface import login, switch_position, asset_items, finance_products, submit_risk_info
+from interface.asset import switch_position, asset_items, submit_risk_info, login
 
 if __name__ == "__main__":
     # 金融产品定义

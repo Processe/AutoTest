@@ -1,7 +1,7 @@
 # coding=utf-8
 # --author='fangfang'
 
-from package.interface import login
+from interface.asset import login
 from package.template.asset.interface.asset_interface_setup import Setup
 import unittest
 

@@ -1,7 +1,7 @@
 # coding=utf-8
 # --author='fangfang'
 
-from package.interface import asset_items, switch_position, login, submit_risk_info, submit_risk_resultl
+from interface.asset import switch_position, asset_items, submit_risk_info, submit_risk_resultl, login
 from package.template.asset.interface.asset_interface_setup import Setup
 import unittest
 
@@ -30,17 +30,17 @@ class Login(unittest.TestCase):
                                      data.asset_card, data.asset_sex)
         if data.card_type == '0':
             submit_risk_info.task_submit_risk_info_company(sesion, asset_item_id, data.bank_phone,
-                                                                    data.asset_customer_name,
-                                                                    data.company_card, data.isEntrustedPayment,
-                                                                    data.risk_level,
-                                                                    data.company_account, data.purpose,
-                                                                    data.card_type)
+                                                           data.asset_customer_name,
+                                                           data.company_card, data.isEntrustedPayment,
+                                                           data.risk_level,
+                                                           data.company_account, data.purpose,
+                                                           data.card_type)
         else:
             submit_risk_info.task_submit_risk_info_personal(sesion, asset_item_id, data.bank_phone,
-                                                                     data.asset_customer_name,
-                                                                     data.asset_card, data.isEntrustedPayment,
-                                                                     data.risk_level,
-                                                                     data.asset_account, data.purpose)
+                                                            data.asset_customer_name,
+                                                            data.asset_card, data.isEntrustedPayment,
+                                                            data.risk_level,
+                                                            data.asset_account, data.purpose)
         switch_position.switch_position(sesion, data.position)
         r_json = submit_risk_resultl.submit_risk_result(sesion, asset_item_id, data.risk_result, data.allow_amount, data.riskCtrlRejectReson, data.riskCtrl_remarks)
         if r_json["success"] is True and r_json['message'] == "":
@@ -62,17 +62,17 @@ class Login(unittest.TestCase):
                                      data.asset_card, data.asset_sex)
         if data.card_type == '0':
             submit_risk_info.task_submit_risk_info_company(sesion, asset_item_id, data.bank_phone,
-                                                                    data.asset_customer_name,
-                                                                    data.company_card, data.isEntrustedPayment,
-                                                                    data.risk_level,
-                                                                    data.company_account, data.purpose,
-                                                                    data.card_type)
+                                                           data.asset_customer_name,
+                                                           data.company_card, data.isEntrustedPayment,
+                                                           data.risk_level,
+                                                           data.company_account, data.purpose,
+                                                           data.card_type)
         else:
             submit_risk_info.task_submit_risk_info_personal(sesion, asset_item_id, data.bank_phone,
-                                                                     data.asset_customer_name,
-                                                                     data.asset_card, data.isEntrustedPayment,
-                                                                     data.risk_level,
-                                                                     data.asset_account, data.purpose)
+                                                            data.asset_customer_name,
+                                                            data.asset_card, data.isEntrustedPayment,
+                                                            data.risk_level,
+                                                            data.asset_account, data.purpose)
         switch_position.switch_position(sesion, data.position)
         r_json = submit_risk_resultl.submit_risk_result(sesion, asset_item_id, data.risk_result, data.allow_amount, data.riskCtrlRejectReson, data.riskCtrl_remarks)
         if r_json["success"] is True and r_json['message'] == "":
@@ -94,17 +94,17 @@ class Login(unittest.TestCase):
                                      data.asset_card, data.asset_sex)
         if data.card_type == '0':
             submit_risk_info.task_submit_risk_info_company(sesion, asset_item_id, data.bank_phone,
-                                                                    data.asset_customer_name,
-                                                                    data.company_card, data.isEntrustedPayment,
-                                                                    data.risk_level,
-                                                                    data.company_account, data.purpose,
-                                                                    data.card_type)
+                                                           data.asset_customer_name,
+                                                           data.company_card, data.isEntrustedPayment,
+                                                           data.risk_level,
+                                                           data.company_account, data.purpose,
+                                                           data.card_type)
         else:
             submit_risk_info.task_submit_risk_info_personal(sesion, asset_item_id, data.bank_phone,
-                                                                     data.asset_customer_name,
-                                                                     data.asset_card, data.isEntrustedPayment,
-                                                                     data.risk_level,
-                                                                     data.asset_account, data.purpose)
+                                                            data.asset_customer_name,
+                                                            data.asset_card, data.isEntrustedPayment,
+                                                            data.risk_level,
+                                                            data.asset_account, data.purpose)
         switch_position.switch_position(sesion, data.position)
         r_json = submit_risk_resultl.submit_risk_result(sesion, asset_item_id, data.risk_result, data.allow_amount, data.riskCtrlRejectReson, data.riskCtrl_remarks)
         if r_json["success"] is True and r_json['message'] == "":
@@ -126,17 +126,17 @@ class Login(unittest.TestCase):
                                      data.asset_card, data.asset_sex)
         if data.card_type == '0':
             submit_risk_info.task_submit_risk_info_company(sesion, asset_item_id, data.bank_phone,
-                                                                    data.asset_customer_name,
-                                                                    data.company_card, data.isEntrustedPayment,
-                                                                    data.risk_level,
-                                                                    data.company_account, data.purpose,
-                                                                    data.card_type)
+                                                           data.asset_customer_name,
+                                                           data.company_card, data.isEntrustedPayment,
+                                                           data.risk_level,
+                                                           data.company_account, data.purpose,
+                                                           data.card_type)
         else:
             submit_risk_info.task_submit_risk_info_personal(sesion, asset_item_id, data.bank_phone,
-                                                                     data.asset_customer_name,
-                                                                     data.asset_card, data.isEntrustedPayment,
-                                                                     data.risk_level,
-                                                                     data.asset_account, data.purpose)
+                                                            data.asset_customer_name,
+                                                            data.asset_card, data.isEntrustedPayment,
+                                                            data.risk_level,
+                                                            data.asset_account, data.purpose)
         switch_position.switch_position(sesion, data.position)
         r_json = submit_risk_resultl.submit_risk_result(sesion, asset_item_id, data.risk_result, data.allow_amount, data.riskCtrlRejectReson, data.riskCtrl_remarks)
         if r_json["success"] is True and r_json['message'] == "":
@@ -158,17 +158,17 @@ class Login(unittest.TestCase):
                                      data.asset_card, data.asset_sex)
         if data.card_type == '0':
             submit_risk_info.task_submit_risk_info_company(sesion, asset_item_id, data.bank_phone,
-                                                                    data.asset_customer_name,
-                                                                    data.company_card, data.isEntrustedPayment,
-                                                                    data.risk_level,
-                                                                    data.company_account, data.purpose,
-                                                                    data.card_type)
+                                                           data.asset_customer_name,
+                                                           data.company_card, data.isEntrustedPayment,
+                                                           data.risk_level,
+                                                           data.company_account, data.purpose,
+                                                           data.card_type)
         else:
             submit_risk_info.task_submit_risk_info_personal(sesion, asset_item_id, data.bank_phone,
-                                                                     data.asset_customer_name,
-                                                                     data.asset_card, data.isEntrustedPayment,
-                                                                     data.risk_level,
-                                                                     data.asset_account, data.purpose)
+                                                            data.asset_customer_name,
+                                                            data.asset_card, data.isEntrustedPayment,
+                                                            data.risk_level,
+                                                            data.asset_account, data.purpose)
         switch_position.switch_position(sesion, data.position)
         r_json = submit_risk_resultl.submit_risk_result(sesion, asset_item_id, data.risk_result, data.allow_amount, data.riskCtrlRejectReson, data.riskCtrl_remarks)
         if r_json["success"] is True and r_json['message'] == "":
@@ -190,17 +190,17 @@ class Login(unittest.TestCase):
                                      data.asset_card, data.asset_sex)
         if data.card_type == '0':
             submit_risk_info.task_submit_risk_info_company(sesion, asset_item_id, data.bank_phone,
-                                                                    data.asset_customer_name,
-                                                                    data.company_card, data.isEntrustedPayment,
-                                                                    data.risk_level,
-                                                                    data.company_account, data.purpose,
-                                                                    data.card_type)
+                                                           data.asset_customer_name,
+                                                           data.company_card, data.isEntrustedPayment,
+                                                           data.risk_level,
+                                                           data.company_account, data.purpose,
+                                                           data.card_type)
         else:
             submit_risk_info.task_submit_risk_info_personal(sesion, asset_item_id, data.bank_phone,
-                                                                     data.asset_customer_name,
-                                                                     data.asset_card, data.isEntrustedPayment,
-                                                                     data.risk_level,
-                                                                     data.asset_account, data.purpose)
+                                                            data.asset_customer_name,
+                                                            data.asset_card, data.isEntrustedPayment,
+                                                            data.risk_level,
+                                                            data.asset_account, data.purpose)
         switch_position.switch_position(sesion, data.position)
         r_json = submit_risk_resultl.submit_risk_result(sesion, asset_item_id, data.risk_result, data.allow_amount, data.riskCtrlRejectReson, data.riskCtrl_remarks)
         if r_json["success"] is True and r_json['message'] == "":
@@ -222,17 +222,17 @@ class Login(unittest.TestCase):
                                      data.asset_card, data.asset_sex)
         if data.card_type == '0':
             submit_risk_info.task_submit_risk_info_company(sesion, asset_item_id, data.bank_phone,
-                                                                    data.asset_customer_name,
-                                                                    data.company_card, data.isEntrustedPayment,
-                                                                    data.risk_level,
-                                                                    data.company_account, data.purpose,
-                                                                    data.card_type)
+                                                           data.asset_customer_name,
+                                                           data.company_card, data.isEntrustedPayment,
+                                                           data.risk_level,
+                                                           data.company_account, data.purpose,
+                                                           data.card_type)
         else:
             submit_risk_info.task_submit_risk_info_personal(sesion, asset_item_id, data.bank_phone,
-                                                                     data.asset_customer_name,
-                                                                     data.asset_card, data.isEntrustedPayment,
-                                                                     data.risk_level,
-                                                                     data.asset_account, data.purpose)
+                                                            data.asset_customer_name,
+                                                            data.asset_card, data.isEntrustedPayment,
+                                                            data.risk_level,
+                                                            data.asset_account, data.purpose)
         switch_position.switch_position(sesion, data.position)
         r_json = submit_risk_resultl.submit_risk_result(sesion, asset_item_id, data.risk_result, data.allow_amount, data.riskCtrlRejectReson, data.riskCtrl_remarks)
         if r_json["success"] is True and r_json['message'] == "":

@@ -3,7 +3,7 @@
 
 from assetDB import AssetDB
 from httpTool import Http
-from package.interface import finance_products
+from interface.asset import finance_products
 from package.models.logger import Logger
 
 log = Logger(logger="asset_items").getlog()

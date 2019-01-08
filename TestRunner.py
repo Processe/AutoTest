@@ -18,7 +18,7 @@ if __name__ == "__main__":
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
                                            title=u'自动化测试报告,测试结果如下：',
                                            description=u'用例执行情况：')
-    # # # 如果不用生成HTML文件
+    # # # 不用生成HTML文件
     # runner = unittest.TextTestRunner()
 
     # 执行器

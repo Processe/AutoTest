@@ -1,7 +1,7 @@
 # coding=utf-8
 # --author='fangfang'
 
-from package.interface import asset_items, switch_position, login, submit_risk_info
+from interface.asset import switch_position, asset_items, submit_risk_info, login
 from package.template.asset.interface.asset_interface_setup import Setup
 import unittest
 
