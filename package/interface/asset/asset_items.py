@@ -35,7 +35,7 @@ def asset_items_add(sessions, assetType, customerTelephone, borrowAmount, financ
                     {"propertyId": "308", "propertyCode": "repaymentDuration", "propertyValue": duration},
                     {"propertyId": "171", "propertyCode": "financeProductId", "propertyValue": financeProductId},
                     {"propertyId": "307", "propertyCode": "customerSource", "propertyValue": ""},
-                    {"propertyId": "20264", "propertyCode": "chedyt1", "propertyValue": ""},
+                    {"propertyId": "20264", "propertyCode": "chedyt1", "propertyValue": "3"},
                     {"propertyId": "174", "propertyCode": "customerName", "propertyValue": customerName},
                     {"propertyId": "214", "propertyCode": "idCard", "propertyValue": idCard},
                     {"propertyId": "215", "propertyCode": "domicilePlace", "propertyValue": "大地方"},
@@ -92,7 +92,7 @@ def asset_items_edit(sessions, asset_item_id, assetType, customerTelephone, borr
                 {"propertyId": "308", "propertyCode": "repaymentDuration", "propertyValue": duration},  # 还款期限
                 {"propertyId": "171", "propertyCode": "financeProductId", "propertyValue": financeProductId},  # 金融产品
                 {"propertyId": "307", "propertyCode": "customerSource", "propertyValue": ""},  # 客户来源
-                {"propertyId": "20264", "propertyCode": "chedyt1", "propertyValue": ""},  # 车贷用途
+                {"propertyId": "20264", "propertyCode": "chedyt1", "propertyValue": "1"},  # 车贷用途
                 {"propertyId": "174", "propertyCode": "customerName", "propertyValue": customerName},  # 客户姓名
                 {"propertyId": "214", "propertyCode": "idCard", "propertyValue": idCard},  # 身份证号
                 {"propertyId": "215", "propertyCode": "domicilePlace", "propertyValue": "的撒"},  # 户籍地址

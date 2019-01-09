@@ -6,7 +6,7 @@ import time
 import unittest
 from package.models import HTMLTestRunner
 
-test_dir = './test_case/execute_case/asset_interface'
+test_dir = './test_case/execute_case/asset_interface/风控审核'
 report_dir = './report/'
 # html报告文件路径
 report_abspath = os.path.join(report_dir, "result" + time.strftime('%Y%m%d%H%M', time.localtime(time.time())) + ".html")
