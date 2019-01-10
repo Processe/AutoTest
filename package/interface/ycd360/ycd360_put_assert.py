@@ -29,8 +29,6 @@ class ycd360_assert:
         l = self.mt.dict_sorted_to_list(data)
         s = self.mt.param_to_string(l)
         m = self.mt.encryption_md5(s)
-        print("m:" + m)
-        print(data)
         data.update({"sign": m})
         print(data)
         r = requests.post(url, json=data)
