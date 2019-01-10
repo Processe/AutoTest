@@ -1,0 +1,13 @@
+1.此工程是一个自动化测试框架
+2.支持web、移动端、接口测试
+3.目录说明：
+    apps：安卓APP安装包
+    config：配置文件
+    package：框架主要结构，及一些工具包
+    report：运行结果文件，HTML格式
+    result：运行截图和运行日志
+    test_case：测试用例
+    test——data：测试数据（目前只有Excel格式）
+    tools：各个浏览器的webdriver服务工具，及一些其他工具文件
+4.requirements是框架所有用到的Python第三方工具
+4.TestRunner是整个测试框架的执行驱动文件（结合了unittest）
