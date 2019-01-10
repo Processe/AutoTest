@@ -413,6 +413,98 @@ class FunctionLibrary(object):
         else:
             raise ScriptError("数据%s和%s对比失败！" % (newdata, olddata))
 
+    def DateOperat(self, dater, refer, num):
+        '''
+        获取，根据初始日期算出多少"月"或"日"之后的日期
+        :param dater:
+        :param refer: "月"或"日"
+        :param num: 多少天或月后
+        :return: 返回计算后的日期
+        '''
+        LeapYearJudge = 29
+        try:
+            if dater[4] == "0" or dater[4] == "1":
+                tempyear = int(dater[0] + dater[1] + dater[2] + dater[3])
+                tempmounth = int(dater[4] + dater[5])
+                tempday = int(dater[6] + dater[7])
+            else:
+                tempyear = int(dater.split(dater[4])[0])
+                tempmounth = int(dater.split(dater[4])[1])
+                tempday = int(dater.split(dater[4])[2])
+            if LeapYearJudge == "29":
+                Days = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+            else:
+                Days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+            if num > 0:
+                if refer == "日" or refer == "天":
+                    tempday = tempday + num
+                    while tempday > Days[tempmounth]:
+                        tempday = tempday - Days[tempmounth]
+                        tempmounth = tempmounth + 1
+                        if tempmounth > 12:
+                            tempmounth = tempmounth - 12
+                            tempyear = tempyear + 1
+                            if LeapYearJudge == "29":
+                                Days = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+                            else:
+                                Days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+                elif refer == "月":
+                    tempmounth = tempmounth + num
+                    while tempmounth > 12:
+                        tempmounth = tempmounth - 12
+                        tempyear = tempyear + 1
+                elif refer == "年":
+                    tempyear = tempyear + num
+                else:
+                    print('输入格式错误')
+            else:
+                if refer == "天" or refer == "日":
+                    tempday = tempday + num
+                    print(tempday)
+                    while tempday <= 0:
+                        tempday = tempday + Days[tempmounth-1]
+                        tempmounth = tempmounth - 1
+                        if tempmounth <= 0:
+                            tempmounth = tempmounth + 12
+                            tempyear = tempyear - 1
+                            if LeapYearJudge == "29":
+                                Days = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+                            else:
+                                Days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+                elif refer == "月":
+                    tempmounth = tempmounth + num
+                    while tempmounth <= 0:
+                        tempmounth = tempmounth + 12
+                        tempyear = tempyear - 1
+                elif refer == "年":
+                    tempyear = tempyear + num
+                else:
+                    print('输入格式错误')
 
+            if LeapYearJudge == "29":
+                Days = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+            else:
+                Days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+            print(tempday)
+            if tempday > Days[tempmounth]:
+                print(Days[tempmounth])
+                tempday = tempday - Days[tempmounth]
+                tempmounth = tempmounth + 1
+            print(tempday)
+            if tempmounth > 12:
+                tempmounth = tempmounth - 12
+                tempyear = tempyear + 1
+            if tempmounth < 10:
+                mounths = "0" + str(tempmounth)
+            else:
+                mounths = str(tempmounth)
+            if tempday < 10:
+                days = "0" + str(tempday)
+            else:
+                days = str(tempday)
+            logger.info('获取日期成功')
+            return str(tempyear) + "-" + mounths + "-" + days
+        except:
+            logger.info('获取日期失败')
 
 

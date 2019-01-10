@@ -8,22 +8,9 @@ log = Logger(logger="asset_login").getlog()
 
 
 def switch_position(session, position):
-    positionId = None
     # 根据岗位判断岗位编号
-    if position == '营业部':
-        positionId = '252'
-    elif position == '运营部':
-        positionId = '253'
-    elif position == '风控部':
-        positionId = '254'
-    elif position == '服务部':
-        positionId = '255'
-    elif position == '财务部':
-        positionId = '256'
-    elif position == '发标部':
-        positionId = '257'
-    elif position == '管理员':
-        positionId = '258'
+    position_data = {'营业部': '252', '运营部': '253', '风控部': '254', '服务部': '255', '财务部': '256', '发标部': '257', '管理员': '258'}
+    positionId = position_data[position]
     # 实例化http请求
     http = Http()
     headers = {"Connection": "keep-alive", "Content-Type": "application/json;charset=UTF-8",
