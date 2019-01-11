@@ -8,7 +8,6 @@
       <sourceFolder url="file://$MODULE_DIR$/test_case" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/package/template" isTestSource="false" />
     </content>
-    <content url="file://E:/Script" />
     <orderEntry type="jdk" jdkName="Python 3.4" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
